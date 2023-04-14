@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/Ciberbago/ciber-bucket/blob/main/files/pmxeditor.zip",
-            "hash": "md5:60a55f5a490e2e04760613dad3b29c3a"
+            "hash": "fe385f2e89cf31ce2e5c829f90add3e7"
         }
     },
     "bin": "PmxEditor.exe",
