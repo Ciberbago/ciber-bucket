@@ -5,7 +5,7 @@
     "license": "https://kkhk22.seesaa.net/category/14045227-1.html",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Ciberbago/ciber-bucket/blob/main/files/pmxeditor.zip"
+            "url": "https://github.com/Ciberbago/ciber-bucket/blob/main/files/pmxeditor.zip?raw=true"
         }
     },
     "bin": "PmxEditor.exe",
