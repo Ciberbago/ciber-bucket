@@ -18,9 +18,7 @@
             "Windhawk"
         ]
     ],
-    "post_install":{
-        "script":["Move-Item -Path \"$dir\\Windhawk\\*\" -Destination \"$dir\\"]
-    },
+    "post_install": ["Move-Item -Path \"$dir\\Windhawk\\*\" -Destination \"$dir\\"],
     "checkver": {
         "github": "https://github.com/ramensoftware/windhawk"
     },
