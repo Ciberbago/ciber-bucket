@@ -10,6 +10,7 @@
     "installer": {
         "script": [
             "Start-Process -Wait \"$dir\\setup.exe\" -ArgumentList @('/S', '/portable', '/D=\"$dir\"') -Verb RunAs"
+            "Start-Process -Wait \"$dir\\setup.exe\" -ArgumentList '"/S /portable /D=$dir"' -Verb RunAs"
         ]
     },
     "shortcuts": [
