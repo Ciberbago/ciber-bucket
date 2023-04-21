@@ -9,7 +9,7 @@
     "persist": "AppData",
     "installer": {
         "script":[
-            "Invoke-ExternalCommand \"$dir\\setup.exe\" -ArgumentList @('/S', '/PORTABLE', \"/D=$dir\") -RunAs | Out-Null"
+            "Start-Process -Wait \"$dir\\setup.exe\" -ArgumentList '/S /portable \"/D=$dir\"' -Verb RunAs"
         ]
     },
     "shortcuts": [
