@@ -14,7 +14,7 @@
     },
     "shortcuts": [
         [
-            "Winhdawk\windhawk.exe",
+            "Winhdawk\\windhawk.exe",
             "Windhawk"
         ]
     ],
