@@ -9,7 +9,7 @@
     "persist": "AppData",
     "installer": {
         "script":[
-            "Start-Process -Wait \"$dir\\setup.exe\" -ArgumentList '/S /portable /D=$dir\holi' -Verb RunAs"
+            "Start-Process -Wait \"$dir\\setup.exe\" -ArgumentList '/S /portable /D=$dir\\holi' -Verb RunAs"
         ]
     },
     "shortcuts": [
