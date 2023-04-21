@@ -9,7 +9,7 @@
     "persist": "AppData",
     "installer": {
         "file": "setup.exe",
-        "args": "/portable"
+        "args": "/s"
     },
     "shortcuts": [
         [
