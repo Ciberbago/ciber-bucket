@@ -10,6 +10,7 @@
     "installer": {
         "script": [
             "Start-Process -Wait \"$dir\\setup.exe\" -ArgumentList @('/S', '/portable') -Verb RunAs | Out-Null",
+            "Move-Item -Path \"$dir\\Windhawk\*\" -Destination \"$dir\\"",
             "Remove-Item \"$dir\\setup.exe\""
         ]
     },
