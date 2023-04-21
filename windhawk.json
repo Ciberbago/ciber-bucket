@@ -10,7 +10,8 @@
     "installer": {
         "args": [
             "/S",
-            "/PORTABLE"
+            "/PORTABLE",
+            "/D=$dir\\"
         ]
     },
     "shortcuts": [
