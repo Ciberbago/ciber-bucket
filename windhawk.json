@@ -9,7 +9,7 @@
     "persist": "AppData",
     "installer": {
         "script": [
-            "Start-Process -Wait \"$dir\\setup.exe\" -ArgumentList @('/S', '/portable') -Verb RunAs | Out-Null"
+            "Start-Process -Wait \"$dir\\setup.exe\" -ArgumentList @('/S', '/portable', '/D=\"$dir\\"') -Verb RunAs | Out-Null"
         ]
     },
     "shortcuts": [
@@ -18,7 +18,6 @@
             "Windhawk"
         ]
     ],
-    "post_install": ["Move-Item -Path \"$dir\\Windhawk\\*\" -Destination \"$dir\\"],
     "checkver": {
         "github": "https://github.com/ramensoftware/windhawk"
     },
