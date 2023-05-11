@@ -1,7 +1,8 @@
-# ciber-bucket
+# Ciberbucket
+
 Personal scoop bucket for apps that I cannot find in the way I want in official buckets.
 
-It includes:
+## Included programs
 
 - Clickpaste
 - LdPlayer9
@@ -12,3 +13,8 @@ It includes:
 - Win PS2EXE
 - Windhawk
 
+## Installation
+
+```
+scoop bucket add ciber https://github.com/Ciberbago/ciber-bucket/
+```
