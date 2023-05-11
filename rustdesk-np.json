@@ -16,7 +16,7 @@
     "pre_install": "Get-ChildItem \"$dir\" 'rustdesk-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'RustDesk.exe'",
     "installer": {
         "script": [
-		"Start-Process -Wait \"$dir\\rustdesk.exe\" -ArgumentList '--silent-install'"
+		"Start-Process -Wait \"$dir\\rustdesk.exe\" -ArgumentList '--silent-install' -Verb RunAs | Out-Null"
 
         ]
     },
