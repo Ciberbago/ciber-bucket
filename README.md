@@ -9,6 +9,7 @@ Personal scoop bucket for apps that I cannot find in the way I want in official 
 - PMX Editor in english
 - RDP Plus
 - Rustdesk non portable
+- Steam Cleaner
 - Tinywall
 - Win PS2EXE
 - Windhawk
