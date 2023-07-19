@@ -5,7 +5,7 @@
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://mirrors.ocf.berkeley.edu/blender/release/Blender3.6/blender-3.6.1-windows-x64.msi",
+            "url": "https://mirrors.ocf.berkeley.edu/blender/release/Blender3.6/blender-3.6.1-windows-x64.zip",
             "extract_dir": "blender-3.6.1-windows-x64"
         }
     },
