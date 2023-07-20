@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Collective-Software/ClickPaste/releases/download/$version/ClickPaste_v$version.zip"
+                "url": "https://github.com/Collective-Software/ClickPaste/releases/download/v$version/ClickPaste_v$version.zip"
             }
         }
     }
