@@ -1,5 +1,5 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.0",
     "description": "Windows 10 notification area app in C# that can paste clipboard contents as keystrokes to whatever location you click.",
     "homepage": "https://github.com/Collective-Software/ClickPaste",
     "license": {
@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Collective-Software/ClickPaste/releases/download/v1.0.1/ClickPaste_v1.0.1.zip"
+            "url": "https://github.com/Collective-Software/ClickPaste/releases/download/v1.0.1/ClickPaste_v1.0.0.zip"
         }
     },
     "bin": "ClickPaste.exe",
@@ -17,5 +17,12 @@
             "ClickPaste.exe",
             "ClickPaste"
         ]
-    ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Collective-Software/ClickPaste/releases/download/$version/ClickPaste_v$version.zip"
+            }
+        }
 }
