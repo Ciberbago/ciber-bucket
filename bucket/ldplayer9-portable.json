@@ -20,9 +20,6 @@
             "LDPlayer\\LDPlayer Repairer"
         ]
     ],
-    "uninstaller": {
-        "file": "dnuninst.exe"
-    },
     "persist": [
         "ldrecord\\video",
         "vms"
