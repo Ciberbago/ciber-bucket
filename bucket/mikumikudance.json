@@ -16,10 +16,6 @@
             "MikuMikuDance.exe",
             "MikuMikuDance"
         ]
-    ],
-    "persist": [
-        "UserFile",
-        "Data\\mmconfig.ini"
     ]
 }
 
