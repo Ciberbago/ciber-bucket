@@ -1,0 +1,32 @@
+{
+    "version": "9.3.2",
+    "description": "MikuMikuDance is a free 3D animation software developed as a promotional element for fans of the Sony/Sega Vocaloid product.",
+    "homepage": "http:/learnmmd.com/",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://drive.google.com/uc?id=1B6q_GvCCgV9nRAnI-w9N5_xpJfELeaHW&export=download#/dl.7z",
+            "hash": "f9eb8601b98808eac3b69ac50a4749b0a45c490665414ef9622af4c3bd51b66e",
+            "extract_dir": "MikuMikuDancev932x64"
+        }
+    },
+    "pre_install": [
+        "ensure $persist_dir | Out-Null",
+        "$file = 'Data\\mmconfig.ini'",
+        "if (-not (Test-Path (Join-Path $persist_dir $file))) {",
+        "    New-Item -Path (Join-Path $dir $file) -ItemType File | Out-Null",
+        "}"
+    ],
+    "bin": "MikuMikuDance.exe",
+    "shortcuts": [
+        [
+            "MikuMikuDance.exe",
+            "MikuMikuDance"
+        ]
+    ],
+    "persist": [
+        "UserFile",
+        "Data\\mmconfig.ini"
+    ]
+}
+
