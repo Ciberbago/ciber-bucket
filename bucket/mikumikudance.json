@@ -7,8 +7,7 @@
     "architecture": {
         "64bit": {
             "url": "https://drive.google.com/uc?id=1B6q_GvCCgV9nRAnI-w9N5_xpJfELeaHW&export=download#/dl.7z",
-            "hash": "f9eb8601b98808eac3b69ac50a4749b0a45c490665414ef9622af4c3bd51b66e",
-            "extract_dir": "mmd"
+            "hash": "d06ccd25a55593881d440e05e521227ad8c77028de8b7aa2c1e5d91b3c3a571d"
         }
     },
     "pre_install": [
