@@ -10,10 +10,6 @@
             "hash": "4e03a5655e47fed95a6137309256b50a852ca2f473a73923f8b71c1177f63570"
         }
     },
-    "pre_install": [
-        "ensure $persist_dir | Out-Null",
-        "$file = 'Data\\mmconfig.ini'"
-    ],
     "bin": "MikuMikuDance.exe",
     "shortcuts": [
         [
