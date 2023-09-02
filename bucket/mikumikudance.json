@@ -3,6 +3,7 @@
     "description": "MikuMikuDance is a free 3D animation software developed as a promotional element for fans of the Sony/Sega Vocaloid product.",
     "homepage": "http:/learnmmd.com/",
     "license": "Freeware",
+    "notes": "This version also contains erotic motions and MME installed with the scale effect included",
     "architecture": {
         "64bit": {
             "url": "https://drive.google.com/uc?id=1B6q_GvCCgV9nRAnI-w9N5_xpJfELeaHW&export=download#/dl.7z",
